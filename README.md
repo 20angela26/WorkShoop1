@@ -8,7 +8,8 @@ The idea is to take raw data (CSV with candidate information), process it under 
 
 In other words, this project demonstrates how to transform scattered data into structured and useful information for decision-making.
 
-------------
+<img width="933" height="214" alt="image" src="https://github.com/user-attachments/assets/1362a399-53a3-4eaf-849e-fa0ca2e72217" />
+
 
 
 ## **📂 General Project Flow**
@@ -92,6 +93,7 @@ Example .env:
     DB_HOST=localhost
     DB_PORT=port
     DB_NAME=dbname
+
 
 
 
