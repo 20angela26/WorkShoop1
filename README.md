@@ -32,7 +32,7 @@ Insertion of data into a relational Data Warehouse in MySQL.
 
 Persistence of dimensions and facts following best practices of star schema modeling.
 
-## 📊** Visualization and KPIs**
+## 📊Visualization and KPIs
 
 From the DW, metrics such as:
 
@@ -92,3 +92,4 @@ Example .env:
     DB_HOST=localhost
     DB_PORT=port
     DB_NAME=dbname
+
