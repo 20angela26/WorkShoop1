@@ -11,7 +11,7 @@ load_dotenv()
 engine = create_engine(
     f"mysql+mysqlconnector://{os.getenv('DB_USER')}:{os.getenv('DB_PASS')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
 )
-engine = create_engine("mysql+mysqlconnector://root:root@localhost:3306/candidates_dw")
+
 
 
 df = pd.read_csv("Data/candidates.csv", sep=";", encoding="utf-8-sig")
