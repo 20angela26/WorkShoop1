@@ -68,7 +68,7 @@ source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 
 
-*## # **Install dependencies:***
+ # **Install dependencies:***
 
 pip install -r requirements.txt
 
@@ -92,4 +92,5 @@ Example .env:
     DB_HOST=localhost
     DB_PORT=port
     DB_NAME=dbname
+
 
